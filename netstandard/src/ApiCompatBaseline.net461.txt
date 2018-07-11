@@ -124,7 +124,17 @@ CannotMakeMemberNonVirtual : Member 'System.Reflection.TypeInfo.GetDeclaredNeste
 CannotMakeMemberNonVirtual : Member 'System.Reflection.TypeInfo.GetDeclaredProperty(System.String)' is non-virtual in the implementation but is virtual in the contract.
 CannotMakeMemberNonVirtual : Member 'System.Reflection.TypeInfo.ImplementedInterfaces.get()' is non-virtual in the implementation but is virtual in the contract.
 CannotMakeMemberNonVirtual : Member 'System.Reflection.TypeInfo.IsAssignableFrom(System.Reflection.TypeInfo)' is non-virtual in the implementation but is virtual in the contract.
+TypesMustExist : Type 'System.Runtime.CompilerServices.AsyncMethodBuilderAttribute' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder<TResult>' does not exist in the implementation but it does exist in the contract.
+TypeCannotChangeClassification : Type 'System.Runtime.CompilerServices.ConfiguredTaskAwaitable<TResult>' is marked as readonly in the contract so it must also be marked readonly in the implementation.
+TypeCannotChangeClassification : Type 'System.Runtime.CompilerServices.ConfiguredTaskAwaitable<TResult>.ConfiguredTaskAwaiter' is marked as readonly in the contract so it must also be marked readonly in the implementation.
+TypesMustExist : Type 'System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>' does not exist in the implementation but it does exist in the contract.
 TypesMustExist : Type 'System.Runtime.CompilerServices.ITuple' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Runtime.CompilerServices.ValueTaskAwaiter' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Runtime.CompilerServices.ValueTaskAwaiter<TResult>' does not exist in the implementation but it does exist in the contract.
+TypeCannotChangeClassification : Type 'System.Runtime.CompilerServices.YieldAwaitable' is marked as readonly in the contract so it must also be marked readonly in the implementation.
 TypesMustExist : Type 'System.Runtime.Serialization.DataContractSerializerExtensions' does not exist in the implementation but it does exist in the contract.
 TypesMustExist : Type 'System.Runtime.Serialization.ISerializationSurrogateProvider' does not exist in the implementation but it does exist in the contract.
 TypesMustExist : Type 'System.Security.SecureStringMarshal' does not exist in the implementation but it does exist in the contract.
@@ -168,5 +178,11 @@ MembersMustExist : Member 'System.Threading.ThreadPool.QueueUserWorkItem<TState>
 TypesMustExist : Type 'System.Threading.ThreadPoolBoundHandle' does not exist in the implementation but it does exist in the contract.
 MembersMustExist : Member 'System.Threading.Tasks.Task.IsCompletedSuccessfully.get()' does not exist in the implementation but it does exist in the contract.
 MembersMustExist : Member 'System.Threading.Tasks.TaskCanceledException..ctor(System.String, System.Exception, System.Threading.CancellationToken)' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Threading.Tasks.ValueTask' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Threading.Tasks.ValueTask<TResult>' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Threading.Tasks.Sources.IValueTaskSource' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Threading.Tasks.Sources.IValueTaskSource<TResult>' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Threading.Tasks.Sources.ValueTaskSourceStatus' does not exist in the implementation but it does exist in the contract.
 TypesMustExist : Type 'System.Xml.XPath.XDocumentExtensions' does not exist in the implementation but it does exist in the contract.
-Total Issues: 170
+Total Issues: 186
