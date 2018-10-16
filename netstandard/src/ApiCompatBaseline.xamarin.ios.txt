@@ -7,12 +7,28 @@ TypesMustExist : Type 'System.MemoryExtensions' does not exist in the implementa
 TypesMustExist : Type 'System.ReadOnlyMemory<T>' does not exist in the implementation but it does exist in the contract.
 TypesMustExist : Type 'System.ReadOnlySpan<T>' does not exist in the implementation but it does exist in the contract.
 TypeCannotChangeClassification : Type 'System.RuntimeArgumentHandle' is a 'struct' in the implementation but is a 'ref struct' in the contract.
+TypesMustExist : Type 'System.SequencePosition' does not exist in the implementation but it does exist in the contract.
 TypesMustExist : Type 'System.Span<T>' does not exist in the implementation but it does exist in the contract.
 TypeCannotChangeClassification : Type 'System.TimeZoneInfo.TransitionTime' is marked as readonly in the contract so it must also be marked readonly in the implementation.
 MembersMustExist : Member 'System.Type.IsByRefLike.get()' does not exist in the implementation but it does exist in the contract.
 TypeCannotChangeClassification : Type 'System.TypedReference' is a 'struct' in the implementation but is a 'ref struct' in the contract.
+TypesMustExist : Type 'System.Buffers.ArrayPool<T>' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Buffers.BuffersExtensions' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Buffers.IBufferWriter<T>' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Buffers.IMemoryOwner<T>' does not exist in the implementation but it does exist in the contract.
 TypesMustExist : Type 'System.Buffers.IPinnable' does not exist in the implementation but it does exist in the contract.
 MembersMustExist : Member 'System.Buffers.MemoryHandle..ctor(System.Void*, System.Runtime.InteropServices.GCHandle, System.Buffers.IPinnable)' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Buffers.MemoryManager<T>' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Buffers.MemoryPool<T>' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Buffers.ReadOnlySequence<T>' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Buffers.ReadOnlySequenceSegment<T>' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Buffers.ReadOnlySpanAction<T, TArg>' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Buffers.SpanAction<T, TArg>' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Buffers.StandardFormat' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Buffers.Binary.BinaryPrimitives' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Buffers.Text.Base64' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Buffers.Text.Utf8Formatter' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Buffers.Text.Utf8Parser' does not exist in the implementation but it does exist in the contract.
 MembersMustExist : Member 'System.Collections.BitArray.LeftShift(System.Int32)' does not exist in the implementation but it does exist in the contract.
 MembersMustExist : Member 'System.Collections.BitArray.RightShift(System.Int32)' does not exist in the implementation but it does exist in the contract.
 MembersMustExist : Member 'System.Collections.Generic.Dictionary<TKey, TValue>.TrimExcess()' does not exist in the implementation but it does exist in the contract.
@@ -71,6 +87,7 @@ TypesMustExist : Type 'System.Runtime.CompilerServices.ValueTaskAwaiter' does no
 TypeCannotChangeClassification : Type 'System.Runtime.CompilerServices.YieldAwaitable' is marked as readonly in the contract so it must also be marked readonly in the implementation.
 TypeCannotChangeClassification : Type 'System.Runtime.CompilerServices.YieldAwaitable.YieldAwaiter' is marked as readonly in the contract so it must also be marked readonly in the implementation.
 TypesMustExist : Type 'System.Runtime.InteropServices.MemoryMarshal' does not exist in the implementation but it does exist in the contract.
+TypesMustExist : Type 'System.Runtime.InteropServices.SequenceMarshal' does not exist in the implementation but it does exist in the contract.
 TypeCannotChangeClassification : Type 'System.Runtime.Serialization.StreamingContext' is marked as readonly in the contract so it must also be marked readonly in the implementation.
 TypeCannotChangeClassification : Type 'System.Security.Cryptography.HashAlgorithmName' is marked as readonly in the contract so it must also be marked readonly in the implementation.
 MembersMustExist : Member 'System.Text.Encoding.GetByteCount(System.String, System.Int32, System.Int32)' does not exist in the implementation but it does exist in the contract.
@@ -104,4 +121,4 @@ TypesMustExist : Type 'System.Threading.Tasks.Sources.IValueTaskSource' does not
 TypesMustExist : Type 'System.Threading.Tasks.Sources.IValueTaskSource<TResult>' does not exist in the implementation but it does exist in the contract.
 TypesMustExist : Type 'System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags' does not exist in the implementation but it does exist in the contract.
 TypesMustExist : Type 'System.Threading.Tasks.Sources.ValueTaskSourceStatus' does not exist in the implementation but it does exist in the contract.
-Total Issues: 105
+Total Issues: 122
