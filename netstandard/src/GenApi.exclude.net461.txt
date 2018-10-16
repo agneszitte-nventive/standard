@@ -29,6 +29,7 @@ T:System.Runtime.CompilerServices.IsReadOnlyAttribute
 T:System.Runtime.CompilerServices.IsByRefLikeAttribute
 T:System.Buffers.IPinnable
 T:System.Buffers.MemoryManager`1
+T:System.Net.Http.ReadOnlyMemoryContent
 T:System.Threading.Tasks.Sources.IValueTaskSource
 T:System.Threading.Tasks.Sources.IValueTaskSource`1
 T:System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags
@@ -36,6 +37,7 @@ T:System.Threading.Tasks.Sources.ValueTaskSourceStatus
 T:System.Buffers.MemoryHandle
 T:System.Memory`1
 T:System.MemoryExtensions
+T:System.Net.WebSockets.ValueWebSocketReceiveResult
 T:System.ReadOnlyMemory`1
 T:System.ReadOnlySpan`1
 T:System.Runtime.CompilerServices.AsyncMethodBuilderAttribute
